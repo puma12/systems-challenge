@@ -9,5 +9,4 @@ RUN GOOS=linux go build -o ./bin/web-app ./src/main.go
 FROM alpine:3.16
 WORKDIR /usr/bin
 COPY --from=build /go/src/app/bin /go/bin
-EXPOSE 8080
 ENTRYPOINT /go/bin/web-app
