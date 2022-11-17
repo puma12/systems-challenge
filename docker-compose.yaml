@@ -6,8 +6,10 @@ services:
     image: nginx:1.23 
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - ./nginx/:/etc/nginx/conf.d
+      - ./ssl/conf/:/etc/nginx/ssl/:ro
 
   web-app:
     restart: always
