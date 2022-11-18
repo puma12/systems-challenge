@@ -1,0 +1,22 @@
+{
+  "name": "Albert",
+  "lastname": "Codina",
+  "age": 27,
+  "from": "Barcelona",
+  "hobbies": [
+    "Playing the guitar",
+    "Rugby",
+    "Snowboarding",
+  ]
+  "TV Series": [
+    "Mr. Robot",
+    "Breaking Bad",
+    "Haunted",
+    "Crims",
+  ]
+  "Food": [
+    "Escudella",
+    "Pa amb tomàquet",
+    "Paella",
+  ]
+}
